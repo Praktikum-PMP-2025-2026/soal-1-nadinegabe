@@ -40,7 +40,7 @@ level izin, suhu tubuh, kadar radiasi, dan jam kedatangan.
    printf("MASUK");
 }
 
-   else if (izin == 2 && radiasi <=2 && jam >8 && jam <18){
+   else if (izin == 2 && radiasi <=2 && jam >= 8 && jam <= 18){
    printf("MASUK");
 }
 
