@@ -21,7 +21,7 @@ level izin, suhu tubuh, kadar radiasi, dan jam kedatangan.
 
  int main() {
    scanf("%d %d %d %d", &izin, &suhu, &radiasi, &jam);
-   if (izin >= 6 ){
+   if (radiasi >= 6 ){
     printf("TOLAK");
    }
    else if (suhu >= 390){
